@@ -15,7 +15,7 @@ cargo build --release
 To flash file called a.bin you can invoke
 
 ```bash
-./target/release/annepro2_tools a.bin
+./target/release/annepro2_tools a.bin # may need root
 ```
 
 By default, the flasher will look for 04d9:8008 (Default Anne Pro 2 IAP)
